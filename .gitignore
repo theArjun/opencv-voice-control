@@ -9,5 +9,10 @@ wheels/
 # Virtual environments
 .venv
 
+# Tooling / editor caches
+.ruff_cache/
+.claude/
+.DS_Store
+
 # MediaPipe model (downloaded on setup, see README)
 hand_landmarker.task
