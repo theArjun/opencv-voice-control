@@ -1,11 +1,31 @@
 [project]
 name = "opencv-voice-control"
 version = "0.1.0"
-description = "Add your description here"
+description = "Control your macOS master volume with hand gestures via webcam, using MediaPipe hand tracking and OpenCV."
 readme = "README.md"
 requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Arjun Adhikari", email = "arjun.adhikari@wesionary.team" },
+]
+keywords = ["mediapipe", "opencv", "computer-vision", "hand-tracking", "gesture-control", "macos"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: MacOS X",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
 dependencies = [
     "mediapipe>=0.10.35",
     "numpy>=2.4.6",
     "opencv-python>=4.13.0.92",
 ]
+
+[project.urls]
+Homepage = "https://github.com/thearjun/opencv-voice-control"
+Repository = "https://github.com/thearjun/opencv-voice-control"
+Issues = "https://github.com/thearjun/opencv-voice-control/issues"

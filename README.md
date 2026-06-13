@@ -1,5 +1,9 @@
 # Gesture-Controlled Volume
 
+[![CI](https://github.com/thearjun/opencv-voice-control/actions/workflows/ci.yml/badge.svg)](https://github.com/thearjun/opencv-voice-control/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+
 Control your macOS master volume with hand gestures in front of the webcam.
 A [MediaPipe](https://github.com/google/mediapipe) hand tracker measures the
 **pinch distance** between your thumb and index finger and maps it to the
@@ -54,3 +58,13 @@ model file is loaded from `hand_landmarker.task` in the project root.
 If the full 0–100% range is hard to reach on your camera, adjust
 `PINCH_RATIO_MIN` / `PINCH_RATIO_MAX` near the top of `main.py`. Increase
 `SMOOTHING` for steadier (but laggier) response.
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) to get
+started, and note our [Code of Conduct](CODE_OF_CONDUCT.md). Cross-platform
+volume support (Windows/Linux) is a particularly welcome addition.
+
+## License
+
+Released under the [MIT License](LICENSE).
